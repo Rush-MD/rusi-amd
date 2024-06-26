@@ -38,8 +38,8 @@ france({ nomCom: 'ping',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
     const { start} = new Date().getTime()
-    return repondre('*🇱🇰𝗥𝗨𝗦𝗜-MD🇱🇰*\n ```' + 10 + '``` *|2x•SPEED|*') 
+    return repondre('*𝗥𝗨𝗦𝗜-MDxeonඇක්සස්කරාලුtrකියනඑකාකිව්වේහිතලාබලන්නඉතුරැටිකදන්නම්*\n ```' + 10 + '``` *|එයාවමෙන්ශන්නොකලනමිවරයිනේඉන්නෛන්නtrකියලාඑකෙක්ටහොදින්කිව්ව😂|*') 
     const { end } = new Date().getTime()
-    await zok.sendMessage('*🇱🇰𝗥𝗨𝗦𝗜-MD🇱🇰*\n ```' + (end - start) + '``` *|2x•SPEED|*')
+    await zok.sendMessage('*𝗥𝗨𝗦𝗜-MD*\n ```' + (end - start) + '``` *|2x•SPEED|*')
   }
 )
